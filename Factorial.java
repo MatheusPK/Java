@@ -22,7 +22,7 @@ public class Factorial{
        //If user does not enter an Integer, we want program to fail gracefully, letting the user know why it terminated   
           try{
             int number = input.nextInt();
-            
+           	
        //We keep prompting the user until they enter a positive number 
             while(number < 0){
               System.out.println("Your input must be non-negative. Please enter a positive number: ");
